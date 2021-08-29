@@ -14,7 +14,7 @@ module.exports = {
     name: `허원호`,
     bio: {
       role: `개발자`,
-      description: ['사람에 가치를 두는', '능동적으로 일하는', '이로운 것을 만드는'],
+      description: ['적극적으로 나아가는', '편리함을 생각하는'],
       thumbnail: 'sample.png', // Path to the image in the 'asset' folder
     },
     social: {
