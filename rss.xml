@@ -1,5 +1,119 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[her0707.github.io]]></title><description><![CDATA[허원호의 개발노트]]></description><link>https://her0707.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 27 Aug 2021 11:11:59 GMT</lastBuildDate><item><title><![CDATA[GitHub Pages를 활용한 블로그 만들기]]></title><description><![CDATA[👋 소개 평소에 개발 관련 이슈나 노트 내용을 정리하고 글로 작성할 블로그형태를 찾다가 뒤늦게 나마 GitHub Pages 기능을 활용하여 블로그를 만들게 되었습니다.
-그에 따라 평소에 GitHub Pages…]]></description><link>https://her0707.github.io/github_pages/</link><guid isPermaLink="false">https://her0707.github.io/github_pages/</guid><pubDate>Fri, 27 Aug 2021 10:49:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;-소개&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EC%86%8C%EA%B0%9C&quot; aria-label=&quot; 소개 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;👋 소개&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[her0707.github.io]]></title><description><![CDATA[허원호의 개발노트]]></description><link>https://her0707.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 29 Aug 2021 16:10:24 GMT</lastBuildDate><item><title><![CDATA[GitHub Pages를 활용한 블로그 만들기]]></title><description><![CDATA[👋 소개 평소에 개발 관련 이슈나 노트 내용을 정리하고 글로 작성할 블로그형태를 찾다가 뒤늦게 나마 GitHub Pages 기능을 활용하여 블로그를 만들게 되었습니다.
+그에 따라 평소에 GitHub Pages…]]></description><link>https://her0707.github.io/github-pages/</link><guid isPermaLink="false">https://her0707.github.io/github-pages/</guid><pubDate>Fri, 27 Aug 2021 10:49:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;-소개&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EC%86%8C%EA%B0%9C&quot; aria-label=&quot; 소개 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;👋 소개&lt;/h2&gt;
 &lt;p&gt;평소에 개발 관련 이슈나 노트 내용을 정리하고 글로 작성할 블로그형태를 찾다가 뒤늦게 나마 GitHub Pages 기능을 활용하여 블로그를 만들게 되었습니다.
 그에 따라 평소에 GitHub Pages에 관심이 있으신 분들을 위해 생성 방법에 대해 공유하려고 합니다.&lt;/p&gt;
-&lt;h2 id=&quot;-시작하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0&quot; aria-label=&quot; 시작하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🚀 시작하기&lt;/h2&gt;</content:encoded></item></channel></rss>
+&lt;h2 id=&quot;github-pages-란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#github-pages-%EB%9E%80&quot; aria-label=&quot;github pages 란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;GitHub Pages 란?&lt;/h2&gt;
+&lt;p&gt;웹서버의 경우 직접 웹서버용 PC를 이용하여 운용하는 것은 쉽지 않은 일이며 관리에도 힘이 들기 떄문에 주로 웹호스팅 업체를 사용하여 웹서버에 어플리케이션을 업로드합니다&lt;/p&gt;
+&lt;p&gt;국내의경우 Cafe24, 가비아, dothome 등의 호스팅 업체들이 있으며 세계적으로는 Amazon Web Services (AWS)를 많이 사용하는 추세입니다.&lt;/p&gt;
+&lt;p&gt;AWS의 경우 세계 각 지역에 데이터센터를 두고 있어 한국에서도 사용하는데 큰 어려움이 있지는 않습니다.&lt;/p&gt;
+&lt;p&gt;2021년 들어 주목해볼 고객 사례로 AWS측에서 발표한 링크도 추가해 두겠습니다.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://aws.amazon.com/ko/blogs/korea/2020-customer-cases/&quot;&gt;https://aws.amazon.com/ko/blogs/korea/2020-customer-cases/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;우선 우리는 그중에서 대표적인 무료 Git 저장소이며 사용량도 굉장히 많은 GitHub의 웹 호스팅 서비스인 GitHub Pages를 이용해보고자 합니다.&lt;/p&gt;
+&lt;h2 id=&quot;1-repository-생성하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-repository-%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0&quot; aria-label=&quot;1 repository 생성하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. Repository 생성하기&lt;/h2&gt;
+&lt;p&gt;GitHub Pages를 만들려면 우선 GitHub 계정에 Repository를 생성해주셔야 합니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 49.44444444444444%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABB0lEQVQoz5WS226DMBiDe70uQMiBBEI4DBCom7b3fznvT2CsQp3KLiwuMF/smAvjBe71mmmUfoTrZtT9AlHUSIVFJsv9meQm+n78999fjjDGNXTVQdcjbDvvwFSUUUfgUQ+ABabbF5q3BZJgnADXVEVIIgyYIG9OysjP9XNgkGsnVM24ViRxVUVlqgTT5Mv1ucpsAyrbQhofU4Rk4V2smWq8MIlrok4C+Qo0ladhBuS6JjlK5yit2eHHKzpVeVg+YQkaRglQxsMQxf+A0UQDuGZCN7wTzFP9BsJ2SFW9Hfh78InK23/YD/DzAk7JMlmtlZXDI+/zhGSSk0fx0SNRdh+EHe7vL+A3cv31yeQSxLAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;github-page-1.png&quot;
+        title=&quot;github-page-1.png&quot;
+        src=&quot;/static/3f491c2816fe941abb4910e09609caf7/37523/github-page-1.png&quot;
+        srcset=&quot;/static/3f491c2816fe941abb4910e09609caf7/e9ff0/github-page-1.png 180w,
+/static/3f491c2816fe941abb4910e09609caf7/f21e7/github-page-1.png 360w,
+/static/3f491c2816fe941abb4910e09609caf7/37523/github-page-1.png 720w,
+/static/3f491c2816fe941abb4910e09609caf7/302a4/github-page-1.png 1080w,
+/static/3f491c2816fe941abb4910e09609caf7/07a9c/github-page-1.png 1440w,
+/static/3f491c2816fe941abb4910e09609caf7/67178/github-page-1.png 3158w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Repository name의 경우에는 GitHub의 {username}.github.io 로 지정해주시면됩니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 49.44444444444444%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABDUlEQVQoz52SW2+EIBSE93lXEUW5eEG8dKnZpv3/v256wNq0DcmaPkwIycnHzBwuealwKOMShTDo3R2d86R7vLNKoyCxLx2zP89DlxTQDCuU9dD9Al63KJoORd2B01mSUqAk8FY0EKrH7N9gWoeH22C7FUaOkAEoyJ1Q54FhKDiyywbTzRjMCEvgQVv0aoCULTJJc6U8HzmnjmQ7xehXVpNriRvfFe7XvI5JjvmnQFYpDG6J/QlyFVQ1/fdyfj1+LrLBuG5wLw9y6iIw1JAlIClowqHG6j/I5SsEddcYh0pPYKLdI/6J+jwybdJ6Wsq0Rmfhm3CKzET4Lv9wmNca6n1G4x1yrvbeYnf6FPATx2b2ZPT9f2sAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;github-page-2.png&quot;
+        title=&quot;github-page-2.png&quot;
+        src=&quot;/static/dd9133ceb31c8c71d84b4cf247517c1d/37523/github-page-2.png&quot;
+        srcset=&quot;/static/dd9133ceb31c8c71d84b4cf247517c1d/e9ff0/github-page-2.png 180w,
+/static/dd9133ceb31c8c71d84b4cf247517c1d/f21e7/github-page-2.png 360w,
+/static/dd9133ceb31c8c71d84b4cf247517c1d/37523/github-page-2.png 720w,
+/static/dd9133ceb31c8c71d84b4cf247517c1d/302a4/github-page-2.png 1080w,
+/static/dd9133ceb31c8c71d84b4cf247517c1d/07a9c/github-page-2.png 1440w,
+/static/dd9133ceb31c8c71d84b4cf247517c1d/a22c0/github-page-2.png 3182w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;그리고 생성하기를 클릭해주시면 GitHub 계정에 정상적으로 Repository가 생성됩니다. &lt;/p&gt;
+&lt;h2 id=&quot;2-호스팅할-프로젝트-및-파일-업로드&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-%ED%98%B8%EC%8A%A4%ED%8C%85%ED%95%A0-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%B0%8F-%ED%8C%8C%EC%9D%BC-%EC%97%85%EB%A1%9C%EB%93%9C&quot; aria-label=&quot;2 호스팅할 프로젝트 및 파일 업로드 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. 호스팅할 프로젝트 및 파일 업로드&lt;/h2&gt;
+&lt;p&gt;Git Gui 클라이언트를 사용하여 해당 Repository clone 진행 이 후 신규파일 commit push 로 진행하실 수 도 있으며&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 18.88888888888889%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAtklEQVQY012Oyw6CMBBFu0fe0JZS3ghEwRhxQ3Tt///Rta2Cj8XJTOZOzgyJixEa2syg9RluKOAE3OCGydb/ozPbZ9h5dMNWEJHk8CMBL+SImETEcwRUwqef3lN5yDIzW2ucFEZsREpsBy+Is11hsFwdcmTVAC4b+HFq0JLvT1b0XtmNGA5XFLcj0scAstP2N5Ybq68yzMsddTeh6U+qjhBZCyaqH2hSIi06TJcF5X6EbHrItscTd85nBJSI7A8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;github-page-3.png&quot;
+        title=&quot;github-page-3.png&quot;
+        src=&quot;/static/662fe1577a7e5b104dff482eee2a8679/37523/github-page-3.png&quot;
+        srcset=&quot;/static/662fe1577a7e5b104dff482eee2a8679/e9ff0/github-page-3.png 180w,
+/static/662fe1577a7e5b104dff482eee2a8679/f21e7/github-page-3.png 360w,
+/static/662fe1577a7e5b104dff482eee2a8679/37523/github-page-3.png 720w,
+/static/662fe1577a7e5b104dff482eee2a8679/302a4/github-page-3.png 1080w,
+/static/662fe1577a7e5b104dff482eee2a8679/07a9c/github-page-3.png 1440w,
+/static/662fe1577a7e5b104dff482eee2a8679/8f1fd/github-page-3.png 2528w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Add file을 통해 Repository에 직접 업로드 할 수 있습니다.&lt;/p&gt;
+&lt;h2 id=&quot;3-호스팅-설정&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-%ED%98%B8%EC%8A%A4%ED%8C%85-%EC%84%A4%EC%A0%95&quot; aria-label=&quot;3 호스팅 설정 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. 호스팅 설정&lt;/h2&gt;
+&lt;p&gt;Repository 메뉴의 Settings로 이동 후 Pages 탭에서 Source에 Branch 와 경로선택 후 Save를 클릭 해 주시면 됩니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 46.111111111111114%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABXElEQVQoz32SyXKDMBBEfY7ZJRCgBQQmGDvbNff8/y91ZgSkTJUrh64ZqdCjZznlykG0I6S+oKgsMtlSNMhLvUapKTdIRYMoqxBnaotViPxdJnV4xzpFWQnWOREQtYPuZ8imD7mZ3tD2E3JF8NqSzCaLVDaIBcGLFbzrFOcKrHNaoiTQcP2EMiNE4yCHDmoaIMcLxDgi78xRvUGmdXC9c47AtocbbxR9gPvpDuNnWH9F6yZIcp1IQ07UwRW/f+6QgD2VyUDZdJhuX7DDlc4dSj1QmSb0bn+zK3q4OwAZYocl9JBzT3BFoJJyqaiHLBpUWlrERf0Hfwp8SSRqM2CYP9B2MyrtIdQ6aUGgnCbIk2YlxT8l7xfskB9yz7h0oajk5Zt6eg9lu3GBpbzSIzl1yGiVssd1enQY8WG7TLgUikXlsLz/oPU3aL+EH/FKKUfu7WuQcq+0Xt3qbgP+At+15ERBakuZAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;github-page-4.png&quot;
+        title=&quot;github-page-4.png&quot;
+        src=&quot;/static/fa1cdb33b6837c4e477804e4f67ab58f/37523/github-page-4.png&quot;
+        srcset=&quot;/static/fa1cdb33b6837c4e477804e4f67ab58f/e9ff0/github-page-4.png 180w,
+/static/fa1cdb33b6837c4e477804e4f67ab58f/f21e7/github-page-4.png 360w,
+/static/fa1cdb33b6837c4e477804e4f67ab58f/37523/github-page-4.png 720w,
+/static/fa1cdb33b6837c4e477804e4f67ab58f/302a4/github-page-4.png 1080w,
+/static/fa1cdb33b6837c4e477804e4f67ab58f/07a9c/github-page-4.png 1440w,
+/static/fa1cdb33b6837c4e477804e4f67ab58f/8148d/github-page-4.png 3700w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;마무리&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A7%88%EB%AC%B4%EB%A6%AC&quot; aria-label=&quot;마무리 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;마무리&lt;/h2&gt;
+&lt;p&gt;여기까지가 아주 간략하게 설명한 GitHub Pages를 사용한 웹 호스팅 방법이었습니다.&lt;/p&gt;
+&lt;p&gt;저도 해당기능을 이용하여 이 블로그 형태의 사이트를 호스팅하여 포스팅 예정입니다.&lt;/p&gt;</content:encoded></item></channel></rss>
