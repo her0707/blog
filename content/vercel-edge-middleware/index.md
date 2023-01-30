@@ -21,4 +21,10 @@ Vercel의 Edge Network에 전역적으로 배포되며 서버 측 로직을 방�
 
 미들웨어는 Chrome 브라우저에서 사용 하는 것과 동일한 고성능 V8 JavaScript 및 WebAssembly 엔진 에 구축된 Vercel Edge Runtime 을 사용합니다.
 
-Edge Runtime은 Web Standard API(FetchEvent, Response, Request)의 하위 집합을 노출하고 확장합니다.
+Edge Runtime은 Web Standard API(FetchEvent, Response, Request)의 하위 subset을 노출하고 확장합니다.
+
+## Edge middleware API
+
+Edge middleware 는 [Edge runtime](https://vercel.com/docs/concepts/functions/edge-functions/edge-functions-api) 에서 실행됩니다.
+
+이 런타임은 들어오는 요청에 따라 응답을 조작하고 구성하는 방법을 더 잘 제어할 수 있도록 확장된 Web Standard API의 하위 subset을 노출합니다.
