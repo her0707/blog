@@ -15,7 +15,7 @@ Edge middleware란 사이트에서 요청이 처리되기 전에 실행되는 �
 
 들어오는 요청에 따라 응답을 반환하기 전에 사용자 지정 논리를 실행하고 rewrite, redirect, headers 추가 등을 수행할 수 있습니다.
 
-![(edge-middleware-light.avif](edge-middleware-light.avif)
+![(edge-middleware-light.png](edge-middleware-light.png)
 
 Vercel의 Edge Network에 전역적으로 배포되며 서버 측 로직을 방문자의 출처에 가까운 Edge로 이동할 수 있습니다.
 
