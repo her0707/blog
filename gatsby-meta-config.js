@@ -1,6 +1,6 @@
 module.exports = {
-  title: `her0707.github.io`,
-  description: `허원호의 개발노트`,
+  title: `w.h.heo 포스팅 공간`,
+  description: `w.h.heo 의 개발노트`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
   siteUrl: `https://her0707.github.io`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
@@ -13,7 +13,7 @@ module.exports = {
   author: {
     name: `허원호`,
     bio: {
-      role: `개발자`,
+      role: `프론트엔드 개발자`,
       description: ['적극적으로 나아가는', '편리함을 생각하는'],
       thumbnail: 'sample.png', // Path to the image in the 'asset' folder
     },
