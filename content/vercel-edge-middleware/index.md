@@ -3,7 +3,7 @@ emoji:
 title: Vercel Edge middleware
 date: '2023-01-30 16:18:00'
 author: 허원호
-tags: Github
+tags: Vercel
 categories: 블로그
 ---
 
