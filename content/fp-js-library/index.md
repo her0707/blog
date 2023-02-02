@@ -75,7 +75,7 @@ pipe(
 )(person)
 ```
 
-# [lodash](https://www.notion.so/Lodash-js-bdc92e12c911446e912ae1a19e369572)([lodash/fp](https://github.com/lodash/lodash/wiki/FP-Guide))
+# lodash([lodash/fp](https://github.com/lodash/lodash/wiki/FP-Guide))
 
 ## 특징
 
@@ -165,7 +165,7 @@ const functionalProgramming = hashStr(response2);
 - 타입 추론
 - iteration protocol 준수 (반복가능, 비동기 가능)
 
-## [샘플코드](https://www.notion.so/Functional-Programing-Js-Library-73df85b918de4ffbbd2eadf7d3ffbdd6)
+## 샘플코드
 
 ```jsx
 import { pipe, omit, keys, map, toArray } from '@fxts/core';
