@@ -126,28 +126,27 @@ socket.emit('message', 'hello world!');
   - Room 설정
 
     ```jsx
-    // 시세 데이터 전달 Room 형태 생성
     export const encodeRoomName = (type, pairs) => {
       switch (type) {
-        case 'aggtrade':
-          const aggtrade_array = [];
+        case 'agg':
+          const agg_array = [];
           if (Array.isArray(pairs)) {
             pairs.forEach((pair) => {
-              aggtrade_array.push(`aggtrade@${pair}`);
+              agg_array.push(`agg@${pair}`);
             });
-            return aggtrade_array;
+            return agg_array;
           } else {
-            return `aggtrade@${pairs}`;
+            return `agg@${pairs}`;
           }
-        case 'ticker':
-          const ticker_array = [];
+        case 'egg':
+          const egg_array = [];
           if (Array.isArray(pairs)) {
             pairs.forEach((pair) => {
-              ticker_array.push(`ticker@${pair}`);
+              egg_array.push(`egg@${pair}`);
             });
-            return ticker_array;
+            return egg_array;
           } else {
-            return `ticker@${pairs}`;
+            return `egg@${pairs}`;
           }
 
         default:
@@ -251,7 +250,7 @@ socket.emit('message', 'hello world!');
           const seq = this.seq;
 
           this.$socket.client.emit('subscribe', {
-            room_name: encodeRoomName('aggtrade', { seq }), // room 생성 상수
+            room_name: encodeRoomName('agg', { seq }), // room 생성 상수
           });
         },
       },
