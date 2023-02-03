@@ -42,7 +42,7 @@ categories: 블로그
 
 - socket은 하나의 인스턴스로 충분함
 
-  ![Untitled](Untitled%201.png)
+  ![Untitled](Untitled_1.png)
 
   - 하나의 웹서비스에 소켓인스턴스를 전역에 단 하나만 존재하도록 작성하여 불필요한 리소스 낭비를 줄여야함
 

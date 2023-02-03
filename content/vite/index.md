@@ -26,7 +26,7 @@ categories: 블로그
   - **Esbuild**는 자바스크립트 기반이 아닌 **Go**로 작성되어 기존의 번들러 대비 10~100배 빠른 번들링속도를 자랑
 - Source code
   ![Untitled](Untitled.png)
-  ![Untitled](Untitled%201.png)
+  ![Untitled](Untitled_1.png)
 
 ### 소스코드 갱신
 

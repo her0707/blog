@@ -208,6 +208,6 @@ console.log('result', result);
 ## 주요 기능
 
 - Pipe
-  ![Untitled](Untitled%201.png)
+  ![Untitled](Untitled_1.png)
   - 입력값이 첫번째에 위치
 - \***\*[fp-ts를 이용한 비함수형 코드와의 상호 운용성](https://alstn2468.github.io/TypeScript/2021-04-21-fp-ts-0/)\*\***
