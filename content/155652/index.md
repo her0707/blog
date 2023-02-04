@@ -1,6 +1,6 @@
 ---
 emoji:
-title: [프로그래머스 코딩테스트] 둘만의 암호
+title: 프로그래머스 코딩테스트 - 둘만의 암호
 date: '2023-02-04 16:18:00'
 author: 허원호
 tags: javascript, 코딩 테스트
