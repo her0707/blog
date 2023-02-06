@@ -25,13 +25,15 @@ const ProjectsSection = ({ projects }) => {
                 )}
               </div>
               <div className="body">
-                <div className="thumbnail-wrapper">
-                  <Image
-                    className="thumbnail"
-                    src={project.thumbnailUrl}
-                    alt={project.thumbnailUrl}
-                  />
-                </div>
+                {project.thumbnailUrl ? (
+                  <div className="thumbnail-wrapper">
+                    <Image
+                      className="thumbnail"
+                      src={project.thumbnailUrl}
+                      alt={project.thumbnailUrl}
+                    />
+                  </div>
+                ) : null}
                 <div className="content">
                   {project.techStack && (
                     <div className="tech-stack">

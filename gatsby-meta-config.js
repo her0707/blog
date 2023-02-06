@@ -6,7 +6,7 @@ module.exports = {
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
-      repo: `zoomkoding/zoomkoding-gatsby-blog`,
+      repo: `her0707/blog`,
     },
   },
   ga: '0', // Google Analytics Tracking ID
@@ -14,8 +14,8 @@ module.exports = {
     name: `허원호`,
     bio: {
       role: `프론트엔드 개발자`,
-      description: ['적극적으로 나아가는', '편리함을 생각하는'],
-      thumbnail: 'sample.png', // Path to the image in the 'asset' folder
+      description: ['최적화에 관심이 많은', '더 나은 개선코드를 찾는'],
+      thumbnail: '', // Path to the image in the 'asset' folder
     },
     social: {
       github: `https://github.com/her0707`,
@@ -70,5 +70,7 @@ module.exports = {
       // ========================================================
       // ========================================================
     ],
+
+    careers: [],
   },
 };

@@ -15,7 +15,6 @@ const Bio = ({ author, language = 'ko' }) => {
         {language === 'ko' ? (
           <div className="introduction korean">
             <p className="title">
-              안녕하세요.
               <br />
               <ReactRotatingText items={bio.description} />
               <br />
@@ -45,7 +44,7 @@ const Bio = ({ author, language = 'ko' }) => {
             </div>
           </div>
         )}
-        <Image className="thumbnail" src={bio.thumbnail} alt="thumbnail" />
+        {bio.thumbnail ? <Image className="thumbnail" src={bio.thumbnail} alt="thumbnail" /> : null}
       </div>
     </div>
   );
