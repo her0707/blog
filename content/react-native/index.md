@@ -1,7 +1,7 @@
 ---
 emoji:
 title: React Native
-date: '2023-02-03 16:18:00'
+date: '2023-02-03 16:30:00'
 author: 허원호
 tags: react, native, javascript, android, ios
 categories: 블로그
