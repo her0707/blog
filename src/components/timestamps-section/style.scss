@@ -42,9 +42,9 @@
           position: relative;
           left: -1px;
           content: '';
-          align-self: center;
           width: 10px;
           height: 10px;
+          top: 7px;
           background-color: var(--background-color);
           border-radius: 10px;
           transform: translatex(-50%);
@@ -57,7 +57,6 @@
           width: 115px;
           min-width: 115px;
           color: #828282;
-          align-self: center;
 
           @include md {
             width: 200px;
@@ -68,6 +67,21 @@
         .activity {
           line-height: 23px;
           width: 100%;
+        }
+
+        .result-wrapper {
+          .result {
+            width: 100%;
+            margin-left: 5px;
+            padding: 10px 0;
+
+            font-size: 18px;
+            font-weight: 400;
+
+            &::marker {
+              color: #828282;
+            }
+          }
         }
       }
     }
