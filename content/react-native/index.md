@@ -73,7 +73,7 @@ categories: 블로그
   - [CodePush](https://github.com/microsoft/react-native-code-push)는 MS에서 만든 오픈소스로 React Native 또는 Apache Cordova로 개발한 앱을
     심사과정 없이 바로 업데이트 할 수 있도록 해주는 서비스
   - 수정된 업데이트 (JS Bundle과 assets)를 AppCenter 서버에 업로드하면 모바일 클라이언트는 앱 시작 시 마다 업데이트 버전이 있는지 확인하여 동기화 시켜줌 (이미지 출처:[링크](https://medium.com/humanscape-tech/react-native-code-push%EB%A1%9C-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0-26b320d87f8))
-    ![Untitled_1.png]([Untitled_1.png)
+    ![Untitled_1.png](Untitled_1.png)
   - 코드 푸시로 할 수 있는 일
     - 오타 수정하기
     - 새 페이지 만들기
