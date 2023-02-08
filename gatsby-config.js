@@ -15,6 +15,7 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-theme-material-ui`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -127,7 +128,6 @@ module.exports = {
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
           `gatsby-remark-mathjax`,
-          `gatsby-plugin-postcss`,
         ],
       },
     },
