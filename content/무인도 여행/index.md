@@ -4,7 +4,7 @@ title: 프로그래머스 코딩테스트 - 무인도 여행
 date: '2023-02-10 00:13:00'
 author: 허원호
 tags: javascript, 코딩 테스트
-categories: 코딩테스트
+categories: 프로그래머스
 ---
 
 # 레벨2

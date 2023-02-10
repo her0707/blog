@@ -4,7 +4,7 @@ title: 프로그래머스 코딩테스트 - 호텔대실
 date: '2023-02-08 14:18:00'
 author: 허원호
 tags: javascript, 코딩 테스트
-categories: 코딩테스트
+categories: 프로그래머스
 ---
 
 # 부분합, 누적합 (레벨2)
