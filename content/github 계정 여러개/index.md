@@ -12,7 +12,7 @@ categories: 블로그
 가장 쉬운 방법으로는 git config 에 계정정보를 저장하는 방법이 있다.
 
 ```
-git config --global credential.helper store
+$ git config --global credential.helper store
 ```
 
 이후 아이디와 패스워드를 입력하면 사용하려는 github 계정이 저장된다.
@@ -71,7 +71,7 @@ $ vi ~/.ssh/id_rsa_test.pub
 - ssh config 파일 생성 or 수정
 
 ```
-vi ~/.ssh/config
+$ vi ~/.ssh/config
 ```
 
 아래 설정을 추가
