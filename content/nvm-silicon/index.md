@@ -61,7 +61,7 @@ lts/gallium 설치 시 mac에 설치된 python 버전이 3.11 이여서 발생�
 
 ## curl 404 not found 에러
 
-상대적으로 구 버전인 node 의 경우 Apple Silicon의 아키텍쳐인 arm64를 지원하지 않아 패키지 설치에 오류가 발생하고 node가 정상적으로 설치되지 않는 현상이 발생
+상대적으로 구 버전인 node 의 경우(16 아래버전) Apple Silicon의 아키텍쳐인 arm64를 지원하지 않아 패키지 설치에 오류가 발생하고 node가 정상적으로 설치되지 않는 현상이 발생
 
 ### 해결방법
 
