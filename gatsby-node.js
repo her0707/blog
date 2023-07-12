@@ -50,7 +50,7 @@ const createPostsPages = ({ createPage, results }) => {
   let categories = [];
 
   results.data.allMarkdownRemark.edges.forEach(({ node }) => {
-    categories = categories.concat(node.frontmatter.categories.split(' '));
+    categories = categories.concat(node.frontmatter.categories.split(', '));
   });
 
   const sortedCategories = ['All', ...getSortedCategoriesByCount(categories)];
