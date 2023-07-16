@@ -72,6 +72,8 @@ test1(); // SyntexError: identifier "x" has already bee declared
 
 변수를 참조할때 스코프체인을 통해 해당 변수를 참조하는 스코프부터 시작하여 상위 스코프 즉 전역스코프를 향해 이동하며 선언된 변수를 검색함
 
+<br >
+
 ## 함수레벨 스코프
 
 코드 블록{} 이 아닌 함수에 의해서만 지역스코프가 생성됨
@@ -96,6 +98,8 @@ for (var i = 0; i < 5; i++) {
 console.log(i); // 5
 ```
 
+<br >
+
 ## 렉시컬 스코프
 
 ```js
@@ -119,6 +123,73 @@ poo();
 
 > 함수를 어디서 호출했느냐에 따라 함수의 상위 스코프를 결정하는 것을 동적 스코프라고 함
 > 함수가 어디서 정의되었느냐에 따라 함수의 상위 스코프를 결정하는 것을 렉시컬 스코프 또는 정적 스코프라고 함
+
+<br >
+
+## 블록 레벨 스코프
+
+### let 키워드
+
+- var 키워드와는 다르게 같은 이름의 변수를 중복 선언할 수 없다. 중복선언시 SyntaxError 가 발생한다.
+- 블록 레벨 스코프
+
+```js
+let test = 1;
+
+{
+  let test = 2;
+  let test1 = 3;
+}
+
+console.log(test); // 1
+console.log(test1); // ReferenceError: test1 is not defined
+```
+
+- 변수 호이스팅이 발생하지 않는 것 처럼 보이지만 var 키워드와는 다르게 선언단계와 초기화 단계가 분리되어 진행되기 때문에 초기화 이전 함수를 참조하면 참조에러가 발생한다.
+
+```js
+console.log(test); // ReferenceError: test is not defined
+
+let test;
+console.log(test); // undefined
+
+test = 1;
+console.log(test); // 1
+
+// 변수 호이스팅이 발생한다는 이유는 아래 코드로 알수 있다
+let name = 'Lee';
+{
+  console.log(name); // ReferenceError: cannot access "name" before initialization
+  let name = 'Heo';
+}
+```
+
+- let은 전역변수로 선언하더라도 전역객체의 프로퍼티가 되지 않는다.
+  - 보이지 않는 개념적인 블록(전역 렉시컬 환경의 선언적 환경 레코드) 내에 존재하게 된다.
+
+### const 키워드
+
+- 선언과 초기화를 동시에 해야한다.
+- let 키워드와 같이 블록스코프를 가지며 호이스팅이 발생하지만 발생하지 않는 것 처럼 보인다.
+- 재할당이 금지된다.
+  - 이러한 특징으로 인해 **상수(재할당이 금지된 변수)**를 표현하는데 사용하기도 한다.
+
+```js
+let preTaxPrice = 100;
+
+let afterTaxPrice = preTaxPrice + preTaxPrice * 0.1; // 0.1은 쉽게 바뀌지 않는 값이며 프로그램에서 전체에서 고정된 값을 사용해야하므로 상수로 사용하는 것이 유용하다
+
+console.log(afterTaxPrice); // 110
+```
+
+- const 키워드로 선언된 객체는 값을 변경할 수 있다.
+  - 재할당이 금지될 뿐 불변은 아니기 때문에 프로퍼티의 생성, 삭제, 변경이 가능한 것이다.
+
+### var vs. let vs. const
+
+- ES6 를 사용한다면 var 키워드는 사용하지 않는다.
+- 재할당이 필요한 경우 let을 사용하며 변수의 스코프는 최대한 좁게 만든다.
+- 변경이 발생하지 않고 일기 전용으로 사용하는 원시 값과 객체는 const 키워드를 사용한다.
 
 <br >
 
