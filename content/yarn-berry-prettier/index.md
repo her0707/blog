@@ -51,6 +51,11 @@ yarn dlx @yarnpkg/sdks vscode
 
 ## 후기..
 
+아쉽게도 전역 prettier 가 아닌 package.json 에 install 한 prettier는 format on save로 제대로 동작을 안하는 현상이 발생합니다.
+
+> [https://github.com/prettier/prettier-vscode/issues/3068](https://github.com/prettier/prettier-vscode/issues/3068)
+> 해당 이슈에서 동일한 현상이 발생하는 사용자를 확인할 수 있었습니다..
+
 시작부터 손이 가는걸 보아하니 yarn 1.x 버전 사용중인 프로젝트 마이그레이션 시에는 꽤나 고생하겠다는 생각이 벌써 부터 드네요
 
 pnp 방식에 대한 정의는 이후에 내용정리해서 올려보도록 하겠습니다.
